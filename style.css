@@ -109,11 +109,57 @@ button:hover{
     bottom: 270px;
     left: 90px;
     animation-name: moving-monster;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-direction: alternate; 
 }
 @keyframes moving-monster{
     from{transform: translateY(0px);}
-    to{transform: translateY(70px);}
+    to{transform: translateY(100px);}
+}
+.title{
+    padding-top: 100px;
+    text-align: center;
+    color: rgb(0, 229, 255);
+    font-size: 80px;
+    box-shadow: 5px 5px 0 black;
+}
+.about-content{
+    width: 35%;
+    height: 270px;
+    background: rgb(0, 229, 255); 
+    padding-left: 40px;
+    padding-top: 40px;
+    position: relative;
+    display: flex;
+}
+.about-title{
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    max-width: 463px;
+    margin-bottom: 20px;
+    font-family: 'Press Start 2P';
+}
+.about-card{
+    background: black;
+    width: 376px;
+    height: 346px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    position: relative;
+}
+.about-card p{
+    color: black;
+    font-size: 17px;
+    align-self: start;
+    padding-left: 20px;
+    line-height: 25px;
+    font-family: 'Press Start 2P';
+}
+.about-card img{
+    padding-bottom: 20px;
 }
