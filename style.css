@@ -122,12 +122,18 @@ button:hover{
     text-align: center;
     color: rgb(0, 229, 255);
     font-size: 80px;
-    box-shadow: 5px 5px 0 black;
+    text-shadow: 5px 5px 0 black;
+}
+.about-block{
+    flex-direction: column;
+    height: 100vh;
 }
 .about-content{
-    width: 35%;
+    width: 40%;
     height: 270px;
-    background: rgb(0, 229, 255); 
+    background: rgba(0, 229, 255, 0.704); 
+    border-radius: 10px;
+    backdrop-filter: blur(15px);
     padding-left: 40px;
     padding-top: 40px;
     position: relative;
@@ -142,24 +148,54 @@ button:hover{
     font-family: 'Press Start 2P';
 }
 .about-card{
-    background: black;
-    width: 376px;
-    height: 346px;
+    background-image: url('interface.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 999px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 20px;
+    padding-top: 10px;
     position: relative;
+    right: -330px;
+    top: -97px;
 }
-.about-card p{
-    color: black;
-    font-size: 17px;
+.about-p{
+    color: rgb(0, 229, 255);
+    font-size: 9px;
     align-self: start;
-    padding-left: 20px;
+    padding-left: 95px;
     line-height: 25px;
     font-family: 'Press Start 2P';
 }
 .about-card img{
-    padding-bottom: 20px;
+    position: absolute;
+    height: 150px;
+    padding-bottom: 250px;
+}
+.about-button{
+    width: 205px;
+    height: 60px;
+    margin-left: 330px;
+    border: 2px solid black;
+    border-radius: 100px;
+    background-color: rgb(0, 229, 255);
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    box-shadow: 5px 5px 0 black;
+    margin-top: -170px;
+    transition-duration: 0.3s;
+}
+.about-button a{
+    color: black;
+    font-size: 17px;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 40px; 
+    text-align: center; 
+    padding: 10px;
+    margin-left: 8px;
 }
