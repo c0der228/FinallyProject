@@ -17,7 +17,7 @@
     background-size: cover;
 }
 #about{
-    background: url("neon2.webp");
+    background: url("puls.jpg"); 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -114,6 +114,21 @@ button:hover{
     animation-direction: alternate; 
 }
 @keyframes moving-monster{
+    from{transform: translateY(0px);}
+    to{transform: translateY(100px);}
+}
+.ship-img{
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    bottom: 270px;
+    right: 90px;
+    animation-name: moving-ship;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes moving-ship{
     from{transform: translateY(0px);}
     to{transform: translateY(100px);}
 }
