@@ -350,3 +350,7 @@ footer{
  .footer-links a{
     margin-right: 15px;
  }
+ #instagram{
+    position: relative;
+    top: 5px;
+ }
