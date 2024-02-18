@@ -29,13 +29,13 @@
     background-size: cover;
 }
 #works{
-    background: url("neon4.jpg");
+    background: url("6012933.jpg"); 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #comments{
-    background: url("neon5.jpg");
+    background: url("rm218batch4-aum-08.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -148,7 +148,7 @@ button:hover{
     height: 270px;
     background: rgba(0, 229, 255, 0.704); 
     border-radius: 10px;
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(5px);
     padding-left: 40px;
     padding-top: 40px;
     position: relative;
@@ -219,8 +219,11 @@ button:hover{
     height: 100vh;
 }
 .skills-card{
-    background-color: rgb(0, 229, 255);
+    background: rgba(0, 229, 255, 0.704);
+    background-repeat: no-repeat;
     background-size: contain;
+    backdrop-filter: blur(3px);
+    border-radius: 15px;
     height: 350px;
     display: flex;
     flex-direction: column;
@@ -260,3 +263,90 @@ button:hover{
     padding: 10px;
     margin-left: 8px;
 }
+.skills-img{
+    width: 90px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.works-block{ 
+    height: 100vh;
+}
+.works-block img{
+    margin: 0 20px;
+    width: 30%;
+    box-shadow: 7px 7px 0 black;
+}
+.comments-block{
+    justify-content: space-evenly;
+    max-width: 1150px;
+    height: 100vh;
+    margin: auto;
+}
+.comment-card{
+    background: url("interface.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+    position: relative;
+}
+.comment-card h3{
+    color: rgb(0, 229, 255);
+    font-size: 18px;
+    font-family: 'Press Start 2P';
+    margin-top: 100px;
+    padding: 20px;
+}
+.comment-card p{
+    color: rgb(0, 229, 255);
+    font-size: 12px;
+    font-family: 'Press Start 2P';
+    padding: 10px 20px;
+    text-align: center;
+}
+.comment{
+    height: 350px;
+    width: 161px;
+    margin-right: 150px;
+    text-align: center;
+}
+.comment p{
+    font-family: 'Press Start 2P';
+    font-size: 20px;
+    width: 250px;
+    border-radius: 10px;
+    background: rgba(0, 229, 255, 0.704);
+    backdrop-filter: blur(3px);
+}
+.comment-card img{
+    position: absolute;
+    height: 120px;
+    padding-bottom: 110px;
+}
+footer{
+    background-color: black;
+    height: 110px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(0, 229, 255);
+ }
+ 
+ .footer-info p{
+    font-family: 'Press Start 2P';
+    padding-bottom: 10px;
+ }
+ 
+ .footer-year p{
+    font-family: 'Press Start 2P';
+    letter-spacing: 1.5px;
+ }
+ 
+ .footer-links a{
+    margin-right: 15px;
+ }
