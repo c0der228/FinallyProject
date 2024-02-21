@@ -330,7 +330,7 @@ button:hover{
     padding-bottom: 110px;
 }
 footer{
-    background-color: black;
+    background-color: rgb(26, 32, 88);
     height: 110px;
     display: flex;
     justify-content: space-around;
@@ -362,6 +362,7 @@ footer{
     z-index: 10;
  }
  .fixed-menu{
+    background: rgb(26, 32, 88);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -369,19 +370,19 @@ footer{
  }
  .nav-links{
     display: flex;
-    justify-self: center;
+    justify-content: center;
     flex-grow: 1;
     padding-right: 150px; 
  }
  .nav-link{
     width: 112px;
-    height: 140px;
+    height: 40px;
     border-radius: 12px;
     border: 2px solid black;
-    background-color: #FFF;
+    background-color: white;
     text-decoration: none;
     color: black;
-    font-size: 20px;
+    font-size: 15px;
     font-family: 'Press Start 2P';
     display: flex;
     justify-content: center;
@@ -390,7 +391,7 @@ footer{
  }
  .logo{
     color: rgb(0, 229, 255);
-    font-size: 80px;
+    font-size: 70px;
     padding-left: 50px; 
  }
  .active{
