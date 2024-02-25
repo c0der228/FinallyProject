@@ -397,7 +397,40 @@ footer{
  .active{
     background-color: rgb(0, 229, 255);
  }
+ .mobile-button{
+    display: none;
+    padding-top: 10px;
+    width: 40px;
+    position: absolute;
+    right: 50px;
+ }
+ .hide{
+    display: none;
+ }
+ .mobile-menu{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    background-color: rgb(26, 32, 88);
+    min-height: 100vh;
+}
+ .mobile-nav{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ .mobile-nav-links .nav-link{
+    margin-bottom: 30px;
+    width: 210px;
+    height: 50px; 
+ }
 
+ .off-scroll{
+    overflow: hidden;
+ }
  @media (max-width: 1000px) {
 
     .fixed-menu{
@@ -569,10 +602,32 @@ footer{
     }
 
     .comment p{
-        font-size: 15px;
+        font-size: 20px;
         max-width: 290px;
     }
 
+    .comment-card{
+        background-size: 150%;
+        width: 200px;
+        margin-top: 505px;
+    }
+
+    .comment-card img{
+        margin-left: 10px;
+    }
+
+    .comment-card h3{
+        font-size: 21px;
+        margin-left: 10px;
+    }
+
+    .comment-card p{
+        font-size: 13px;
+    }
+
+    .mobile-button{ 
+        display: block;
+    }
  }
 
 
