@@ -397,80 +397,169 @@ footer{
  .active{
     background-color: rgb(0, 229, 255);
  }
- @media (max-with: 1000px){
+
+ @media (max-width: 1000px) {
+
+    .fixed-menu{
+        height: 100px;
+    }
+
     .nav-links{
         display: none;
     }
+
     .logo{
-        font-size: 40px;
+        font-size: 50px;
         padding-left: 20px;
         padding-left: 10px;
     }
+
     .main-content{
         min-width: 320px;
+        margin-right: 150px;
     }
+
     .main-title{
-        padding-top: 30px;
-        font-size: 30px;
+        padding-top: 100px;
+        font-size: 40px;
+        margin-left: 190px;
     }
+
     .main-subtitle{
-        font-size: 15px;
+        font-size: 20px;
+        margin-left: 145px;
+        margin-top: 210px;
     }
+
     .monster-img, .ship-img{
         display: none;
     }
+
+    .main-img{
+        width: 95px;
+        margin-top: 63px;
+        margin-left: 388px;
+    }
+
+    .button{
+        height: 110px;
+        width: 350px;
+    }
+
+    .button a{
+        font-size: 30px;
+        margin-left: 10px;
+        padding: 32px;
+    }
+
     .title{
         font-size: 50px;
         padding-top: 30px;
     }
+
     .about-block{
         flex-direction: column;
         margin-top: 20px;
         padding: 0;
     }
+
     .about-card{
-        order: -1;
         background-size: contain;
-        padding-top: 20px;
-        width: 326px;
-        height: 296px;
+        padding-top: 100px;
+        width: 999px;
+        height: 650px;
+        margin-left: -850px;
+        margin-top: -660px;
     }
+
     .about-card img{
-        width: 85%;
+        height: 44%;
+        width: 25%;
+        margin-left: -230px;
+        margin-bottom: 95px;
     }
+
+    .about-p{
+        position: relative;
+        font-size: 18px;
+        top: 120px;
+        left: 90px;
+        margin-bottom: 50px;
+    }
+
     .about-content{
-        width: 75%;
-        height: 250px;
+        width: 70%;
+        height: 300px;
         margin-bottom: 20px;
     }
+
     .about-title{
-        font-size: 18px;
+        font-size: 27px;
     }
+
+    .about-button{
+        height: 100px;
+        width: 300px;
+        margin-left: 360px;
+        top: 370px;
+    }
+
+    .about-button a{
+        font-size: 25px;
+        margin-top: 19px;
+        margin-left: 15px;
+    }
+
     .skills-card{
+        width: 600px;
+        height: 450px;
         margin: 20px;
         padding-left: 10px;
         background-size: contain;
     }
+
     .skills-card p{
-        font-size: 16px;
-        margin-top: 15%;
+        font-size: 25px;
+        margin-top: 19%;
         margin-bottom: 20px;
     }
+
     #skills{
         min-height: 60vh;
     }
+
     .skills-button{
         position: absolute;
-        bottom: 100px;
+        height: 100px;
+        width: 430px;
+        top: 300px;
     }
+
+    .skills-button a{
+        font-size: 25px;
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+
+    .languages{
+        margin-top: -10px;
+    }
+
+    .skills-img{
+        margin-top: 140px;
+        width: 150px;
+    }
+
     .works-block{
         flex-direction: column;
         padding: 20px 0;
     }
+
     .works-block img{
         margin: 20px 0;
         width: 80%;
     }
+
     .comments-block{
         flex-direction: column;
         align-items: center;
@@ -478,12 +567,12 @@ footer{
         margin: 0 auto;
         padding-top: 50px;
     }
-    .comment{
-        background: rgba(0, 229, 255, 0.704);
-    }
+
     .comment p{
         font-size: 15px;
         max-width: 290px;
     }
+
  }
+
 
