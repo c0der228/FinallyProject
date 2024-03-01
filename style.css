@@ -410,7 +410,6 @@ footer{
  .mobile-menu{
     position: absolute;
     top: 0;
-    z-index: -1;
     width: 100%;
     background-color: rgb(26, 32, 88);
     min-height: 100vh;
